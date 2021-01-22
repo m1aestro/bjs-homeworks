@@ -16,7 +16,7 @@ class PrintEditionItem {
   set state(state) {
     if (state < 0) {
       this._state = 0;
-    } else if (state > 0) {
+    } else if (state > 100) {
       this._state = 100;
     } else {
       this._state = state;
